@@ -12,8 +12,8 @@ Source:        tcl-DiffUtilTcl-0.4.tar.gz
 URL:           https://github.com/pspjuth/DiffUtilTcl
 BuildRequires: autoconf
 BuildRequires: make
-BuildRequires: tcl-devel >= 8.5
-Requires:      tcl >= 8.5
+BuildRequires: tcl-devel >= 8.6
+Requires:      tcl >= 8.6
 BuildRoot:     %{buildroot}
 
 %description
