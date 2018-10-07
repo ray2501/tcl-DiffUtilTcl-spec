@@ -4,11 +4,11 @@
 
 Name:          tcl-DiffUtilTcl
 Summary:       A Tcl extension for diff utility functions
-Version:       0.4
+Version:       0.4.1
 Release:       0
 License:       Tcl
 Group:         Development/Libraries/Tcl
-Source:        tcl-DiffUtilTcl-0.4.tar.gz
+Source:        tcl-DiffUtilTcl-0.4.1.tar.gz
 URL:           https://github.com/pspjuth/DiffUtilTcl
 BuildRequires: autoconf
 BuildRequires: make

@@ -1,7 +1,7 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "tcl-DiffUtilTcl-0.4"
+set base "tcl-DiffUtilTcl-0.4.1"
 
 if {[file exists $base]} {
     file delete -force $base
