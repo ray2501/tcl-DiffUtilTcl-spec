@@ -13,6 +13,7 @@ URL:           https://github.com/pspjuth/DiffUtilTcl
 BuildRequires: autoconf
 BuildRequires: make
 BuildRequires: tcl-devel >= 8.6
+BuildRequires: tcllib
 Requires:      tcl >= 8.6
 BuildRoot:     %{buildroot}
 
