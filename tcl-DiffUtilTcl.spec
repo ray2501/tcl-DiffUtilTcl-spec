@@ -6,7 +6,7 @@ Name:          tcl-DiffUtilTcl
 Summary:       A Tcl extension for diff utility functions
 Version:       0.4.1
 Release:       0
-License:       Tcl
+License:       TCL
 Group:         Development/Libraries/Tcl
 Source:        tcl-DiffUtilTcl-0.4.1.tar.gz
 URL:           https://github.com/pspjuth/DiffUtilTcl
