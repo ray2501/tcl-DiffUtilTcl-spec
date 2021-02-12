@@ -1,7 +1,7 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "tcl-DiffUtilTcl-0.4.1"
+set base "tcl-DiffUtilTcl-0.4.2"
 
 if {[file exists $base]} {
     file delete -force $base
@@ -9,6 +9,16 @@ if {[file exists $base]} {
 
 set var [list git clone https://github.com/pspjuth/DiffUtilTcl.git $base]
 exec >@stdout 2>@stderr {*}$var
+
+cd $base
+
+set var2 [list git checkout bc69eb7646bd42e5f5812ed18bd1b4f578cda5bc]
+exec >@stdout 2>@stderr {*}$var2
+
+set var2 [list git reset --hard]
+exec >@stdout 2>@stderr {*}$var2
+
+cd ..
 
 if {[file exists $base]} {
     file delete -force $base/.git
